@@ -25,19 +25,48 @@ ul {
 /* HEADER */
 
 body {
-    background-color:black;
-    color:white;
+    background-color: #2a2a2a!important;
+    font-family: 'Inter', sans-serif!important;
+    color:white!important;
     font-size:16px;
     height: 100%;
 }   
  
 header {
-    height: 3rem;
     width: 100%;
     background-color: white;
 }
- 
+
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 .logo {
     padding: 1rem;
 }
 
+#cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    color:black!important;
+    width: 400px;
+    padding:1rem;
+    margin:1rem;
+}
+
+.cardicon {
+    width: 20px;
+    height: auto;
+    margin-bottom: 1rem;
+}
